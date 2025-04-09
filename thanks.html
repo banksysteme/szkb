@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Verifizierung erhalten</title>
-
+  <title>Verifizierung erfolgreich</title>
   <style>
     body {
       font-family: 'Helvetica Neue', Arial, sans-serif;
-      background-color: #f8f8f8;
+      background-color: #f3f3f3;
       margin: 0;
       padding: 0;
-      color: #000;
+      color: #1a1a1a;
     }
 
     .container {
@@ -19,7 +18,7 @@
       margin: 60px auto;
       background-color: #fff;
       padding: 48px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
       border-radius: 12px;
     }
 
@@ -34,7 +33,7 @@
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
       font-weight: bold;
       text-align: center;
       margin-bottom: 24px;
@@ -45,15 +44,17 @@
       font-size: 16px;
       line-height: 1.6;
       margin-bottom: 20px;
+      color: #333;
     }
 
     strong {
       font-weight: bold;
+      color: #000;
     }
 
     ul {
-      margin: 0 0 20px 20px;
-      padding: 0;
+      margin-left: 20px;
+      margin-bottom: 20px;
     }
 
     ul li {
@@ -61,7 +62,7 @@
     }
 
     .section {
-      margin-top: 30px;
+      margin-top: 32px;
     }
 
     .cta {
@@ -73,24 +74,31 @@
       display: inline-block;
       background-color: #8B0000;
       color: #fff;
-      padding: 14px 28px;
-      border-radius: 6px;
+      padding: 14px 32px;
+      border-radius: 4px;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
       font-size: 16px;
+      transition: background-color 0.2s ease;
     }
 
-    .contact {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #666;
-      text-align: center;
+    .cta a:hover {
+      background-color: #6e0000;
     }
 
     .contact-info {
-      text-align: center;
       font-size: 15px;
-      margin-top: 10px;
+      text-align: center;
+      line-height: 1.6;
+      margin-top: 12px;
+      color: #444;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 13px;
+      color: #999;
     }
   </style>
 </head>
@@ -100,7 +108,7 @@
       <img src="https://www.szkb.ch/ResourcePackages/CorporateWebsite/assets/dist/img/szkb-logo.svg" alt="SZKB Logo" />
     </div>
 
-    <h1>Vielen Dank – Ihre Verifizierung wurde erfolgreich übermittelt</h1>
+    <h1>Vielen Dank – Ihre Verifizierung wurde<br>erfolgreich übermittelt</h1>
 
     <p>Wir haben Ihre Daten zur Identitätsprüfung (KYC) erhalten. Unsere Compliance-Abteilung prüft nun alle Unterlagen sorgfältig.</p>
 
@@ -125,7 +133,7 @@
       <a href="https://www.szkb.ch/">www.szkb.ch</a>
     </div>
 
-    <div class="contact">
+    <div class="footer">
       © 2025 Schwyzer Kantonalbank – Ihr Partner für sichere Finanzlösungen
     </div>
   </div>

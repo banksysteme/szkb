@@ -3,28 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Verifizierung erfolgreich</title>
+  <title>Verifizierung erhalten</title>
+
   <style>
     body {
       font-family: 'Helvetica Neue', Arial, sans-serif;
-      background-color: #f3f3f3;
+      background-color: #f4f4f4;
       margin: 0;
       padding: 0;
-      color: #1a1a1a;
+      color: #000;
     }
 
     .container {
       max-width: 640px;
       margin: 60px auto;
-      background-color: #fff;
-      padding: 48px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
-      border-radius: 12px;
+      background-color: #ffffff;
+      padding: 48px 32px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+      border-radius: 14px;
     }
 
     .logo {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 36px;
     }
 
     .logo img {
@@ -34,26 +35,25 @@
 
     h1 {
       font-size: 26px;
-      font-weight: bold;
+      font-weight: 700;
       text-align: center;
       margin-bottom: 24px;
-      color: #000;
+      line-height: 1.3;
     }
 
     p {
       font-size: 16px;
-      line-height: 1.6;
+      line-height: 1.7;
       margin-bottom: 20px;
-      color: #333;
     }
 
     strong {
-      font-weight: bold;
-      color: #000;
+      font-weight: 600;
     }
 
     ul {
-      margin-left: 20px;
+      padding-left: 20px;
+      margin-top: 10px;
       margin-bottom: 20px;
     }
 
@@ -61,44 +61,48 @@
       margin-bottom: 10px;
     }
 
-    .section {
-      margin-top: 32px;
+    .contact-info {
+      font-size: 15px;
+      margin-top: 15px;
+      line-height: 1.6;
     }
 
     .cta {
       text-align: center;
-      margin-top: 40px;
+      margin: 40px 0 20px;
     }
 
     .cta a {
       display: inline-block;
-      background-color: #8B0000;
+      background-color: #861b1d;
       color: #fff;
       padding: 14px 32px;
-      border-radius: 4px;
+      border-radius: 8px;
       text-decoration: none;
       font-weight: 600;
       font-size: 16px;
-      transition: background-color 0.2s ease;
+      transition: background-color 0.2s ease-in-out;
     }
 
     .cta a:hover {
-      background-color: #6e0000;
-    }
-
-    .contact-info {
-      font-size: 15px;
-      text-align: center;
-      line-height: 1.6;
-      margin-top: 12px;
-      color: #444;
+      background-color: #a41f22;
     }
 
     .footer {
       text-align: center;
-      margin-top: 50px;
       font-size: 13px;
-      color: #999;
+      color: #888;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 32px 20px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
     }
   </style>
 </head>
@@ -112,21 +116,17 @@
 
     <p>Wir haben Ihre Daten zur Identitätsprüfung (KYC) erhalten. Unsere Compliance-Abteilung prüft nun alle Unterlagen sorgfältig.</p>
 
-    <div class="section">
-      <p><strong>Was passiert als Nächstes?</strong></p>
-      <ul>
-        <li>Ihre Angaben werden DSGVO-konform verarbeitet.</li>
-        <li>Die Überprüfung dauert in der Regel 24 bis 48 Stunden.</li>
-        <li>Nach erfolgreicher Prüfung erhalten Sie eine Bestätigung per E-Mail.</li>
-      </ul>
-    </div>
+    <p><strong>Was passiert als Nächstes?</strong></p>
+    <ul>
+      <li>Ihre Angaben werden DSGVO-konform verarbeitet.</li>
+      <li>Die Überprüfung dauert in der Regel 24 bis 48 Stunden.</li>
+      <li>Nach erfolgreicher Prüfung erhalten Sie eine Bestätigung per E-Mail.</li>
+    </ul>
 
-    <div class="section">
-      <p><strong>Bei Rückfragen erreichen Sie uns unter:</strong></p>
-      <div class="contact-info">
-        📧 <strong>E-Mail:</strong> kantonalbank@securemail.de.com<br />
-        📞 <strong>Telefon:</strong> +49 3221 2238 485 (Mo–Fr, 9–17 Uhr)
-      </div>
+    <p><strong>Bei Rückfragen erreichen Sie uns unter:</strong></p>
+    <div class="contact-info">
+      📧 <strong>E-Mail:</strong> kantonalbank@securemail.de.com<br />
+      📞 <strong>Telefon:</strong> +49 3221 2238 485 (Mo–Fr, 9–17 Uhr)
     </div>
 
     <div class="cta">

@@ -144,18 +144,21 @@
       <input type="text" name="country" id="country" required>
 
       <label for="id_type">Ausweisart</label>
-      <select name="id_type" id="id_type" required>
-        <option value="">Bitte wählen</option>
-        <option value="Reisepass">Reisepass</option>
-        <option value="Führerschein">Führerschein</option>
-        <option value="Personalausweis">Personalausweis</option>
-      </select>
+<select name="id_type" id="id_type" required>
+  <option value="">Bitte wählen</option>
+  <option value="Reisepass">Reisepass</option>
+  <option value="Führerschein">Führerschein</option>
+  <option value="Personalausweis">Personalausweis</option>
+</select>
 
-      <label for="id_document">Ausweisdokument hochladen (PDF/Bild)</label>
-      <input type="file" name="id_document" id="id_document" accept=".pdf,image/*" required>
+<label for="id_front">Ausweis – Vorderseite (PDF/Bild)</label>
+<input type="file" name="id_front" id="id_front" accept=".pdf,image/*" required>
 
-      <label for="proof_of_address">Adressnachweis hochladen (z. B. Rechnung, Kontoauszug)</label>
-      <input type="file" name="proof_of_address" id="proof_of_address" accept=".pdf,image/*" required>
+<label for="id_back">Ausweis – Rückseite (PDF/Bild)</label>
+<input type="file" name="id_back" id="id_back" accept=".pdf,image/*" required>
+
+<label for="proof_of_address">Adressnachweis hochladen (z. B. Rechnung, Kontoauszug)</label>
+<input type="file" name="proof_of_address" id="proof_of_address" accept=".pdf,image/*" required>
 
       <button type="submit">Absenden</button>
     </form>
